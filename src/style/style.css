@@ -1,0 +1,125 @@
+:root {
+  --Primary-Text: #9c9c9c;
+  --Primary-Black: #080808;
+  --Primary-Button: #3f8e00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--Primary-Text);
+}
+
+li {
+  list-style-type: none;
+}
+
+html {
+  font-family: "IBM Plex Mono", serif;
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--Primary-Text);
+  max-width: 128rem;
+}
+
+/* HEADER */
+.header {
+  background-color: var(--Primary-Black);
+  padding: 0 8.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.header__nav {
+  display: flex;
+  padding: 2.4rem 9.5rem 2.8rem;
+  column-gap: 7rem;
+  background-color: #1b1b1b;
+  border-radius: 0 0 0.8rem 0.8rem;
+}
+
+.header__nav--item {
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.014rem;
+}
+
+.header__nav--itemSocial {
+  margin-left: auto;
+}
+
+.header__nav--itemSocialMenu {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.header__infos {
+  display: flex;
+  padding: 0 9.5rem;
+  margin-top: 8rem;
+}
+
+.header__infos--texts {
+  width: 44.5rem;
+  margin-top: 6.1rem;
+}
+
+.header__infos--textsTitle {
+  font-family: "Raleway", serif;
+  color: #fff;
+  font-size: 4.4rem;
+  font-weight: 800;
+}
+
+.header__infos--textDesc {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  letter-spacing: 0.014rem;
+}
+
+.header__infos--textBtn {
+  display: inline-flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 2.1rem 6.4rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: var(--Primary-Button);
+  box-shadow: 0px 8px 30px 0px rgba(63, 142, 0, 0.5);
+  border-radius: 0.4rem;
+  border: 0.1rem solid #62ba1b;
+  margin-top: 3rem;
+}
+
+.header__infos--avatar {
+  width: 35rem;
+  height: 35rem;
+  border-radius: 50%;
+  margin-left: auto;
+}
+
+.header__worked {
+  margin-top: 5.7rem;
+  padding: 0 9.5rem;
+}
+
+.header__worked--title {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.header__worked--list {
+  display: flex;
+  column-gap: 3rem;
+  margin-top: 2rem;
+}
