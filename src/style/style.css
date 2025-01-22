@@ -220,3 +220,78 @@ body {
   height: 30rem;
   border-radius: 0.6rem;
 }
+
+/* Testimonials */
+.main__testimonials {
+  background-color: var(--Primary-Black);
+  padding: 8rem 18rem;
+}
+
+.main__testimonials--title {
+  font-size: 3.4rem;
+  font-weight: 800;
+  font-family: "Raleway", serif;
+  color: #fff;
+  text-align: center;
+}
+
+.main__testimonials--desc {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  letter-spacing: 0.014rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 57rem;
+  text-align: center;
+}
+
+.main__testimonials--list {
+  margin-top: 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 6.2rem;
+}
+
+.main__testimonials--listItem {
+  border: 1px solid #484848;
+  border-radius: 0.6rem;
+  position: relative;
+  padding: 3rem 0.6rem 3rem 2rem;
+}
+
+.main__testimonials--listItemDecor {
+  position: absolute;
+  top: -1rem;
+  left: 1rem;
+}
+
+.main__testimonials--listItemDesc {
+  width: 40.9rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  letter-spacing: 0.014rem;
+}
+
+.main__testimonials--listItemClient {
+  margin-top: 2.6rem;
+  display: flex;
+  column-gap: 1.3rem;
+  align-items: center;
+}
+
+.main__testimonials--listItemClient img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.main__testimonials--listItemClient h5 {
+  color: #fff;
+  font-family: "Raleway", serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
