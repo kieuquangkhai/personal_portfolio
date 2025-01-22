@@ -123,3 +123,100 @@ body {
   column-gap: 3rem;
   margin-top: 2rem;
 }
+
+/* MAIN */
+.main {
+  /* padding-top: 8rem; */
+}
+
+.main__case-studies {
+  padding-left: 20.8rem;
+  padding-right: 17.5rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.main__case-studies--title {
+  color: var(--Primary-Black);
+  font-size: 3.4rem;
+  font-weight: 800;
+  font-family: "Raleway", serif;
+  text-align: center;
+}
+
+.main__case-studies--desc {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  letter-spacing: 0.014rem;
+  width: 57rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.main__case-studies--list {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8rem;
+}
+
+.main__case-studies--listItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__case-studies--listItemTexts {
+  margin-top: 2.7rem;
+}
+
+.main__case-studies--listItemTextsTag {
+  background-color: #fff6e9;
+  color: #ffa217;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 0.012rem;
+  display: inline-block;
+  padding: 0 1rem;
+  border-radius: 6rem;
+}
+
+.main__case-studies--listItemTextsTitle {
+  margin-top: 2rem;
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: var(--Primary-Black);
+  font-family: "Raleway", serif;
+}
+
+.main__case-studies--listItemTextsDesc {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  letter-spacing: 0.014rem;
+  margin-top: 1rem;
+  width: 42.1rem;
+}
+
+.main__case-studies--listItemTextsBtn {
+  display: inline-flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 4rem;
+  padding: 1rem 2.4rem;
+  background-color: #ffa217;
+  color: #fff;
+  border-radius: 0.4rem;
+  box-shadow: 0px 8px 30px 0px rgba(42, 176, 144, 0.1);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.main__case-studies--listItemImg {
+  width: 44.5rem;
+  height: 30rem;
+  border-radius: 0.6rem;
+}
